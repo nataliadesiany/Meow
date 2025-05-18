@@ -36,7 +36,7 @@ func main() {
 	// Ambil PORT dari environment, default ke 8081 jika kosong
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8081" // Untuk local development
+		port = "8080" // Untuk local development
 	}
 
 	// Jalankan server di port yang sesuai
